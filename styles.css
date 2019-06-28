@@ -1,0 +1,91 @@
+body{
+    background-color: teal;
+}
+
+.menu{
+    margin: 0 auto;
+    background-color: sienna;
+    padding: 0px;
+    width: 90%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.menu li a:hover{
+    background-color: black;
+}
+
+.formulario{
+    margin: 0 auto;
+    background-color: sienna;
+    padding: 0px;
+    width: 90%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.formulario form label{
+    color: white;    
+    text-align: center;
+}
+
+.contacto{
+    margin: 0 auto;
+    background-color: sienna;
+    padding: 0px;
+    width: 90%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.contacto li a{
+    color: white;
+    text-decoration: none;
+}
+
+.contacto li a:hover{
+    background-color: black;
+}
+
+@media only screen and (max-width: 414px){
+    
+    .menu{
+        margin: 0 auto;
+        background-color: salmon;
+        padding: 0px;
+        width: 90%;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    
+    }
+
+    .formulario{
+        margin: 0 auto;
+        background-color: salmon;
+        padding: 0px;
+        width: 90%;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    }
+
+    .contacto{
+        margin: 0 auto;
+        background-color: salmon;
+        padding: 0px;
+        width: 90%;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    }
+}
